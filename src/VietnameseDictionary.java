@@ -15,6 +15,7 @@ public class VietnameseDictionary extends HttpServlet{
         Map<String, String> dictionary = new HashMap<>();
         dictionary.put("hello", "Xin chào");
         dictionary.put("how", "Thế nào");
+        dictionary.put("Fuck","Hello");
         dictionary.put("book", "Quyển vở");
         dictionary.put("computer", "Máy tính");
         //
