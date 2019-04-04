@@ -17,7 +17,7 @@ public class VietnameseDictionary extends HttpServlet{
         dictionary.put("how", "Thế nào");
         dictionary.put("book", "Quyển vở");
         dictionary.put("computer", "Máy tính");
-
+        //
         String search = req.getParameter("txtSearch");
 
         PrintWriter writer = resp.getWriter();
